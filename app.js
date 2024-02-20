@@ -8,7 +8,7 @@ paragrafo.innerHTML = 'Escolha o número entre 1 e 10';
 */
 //Boa pratica para reaproveitar codigo.
 let listaDeNumSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 1000;
 let numeroSecreto = gerarNumAleatorio();
 console.log(numeroSecreto);
 let tentativas = 1;
